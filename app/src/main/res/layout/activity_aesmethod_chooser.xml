@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AES.AESMethodChooserActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/aesTextEncryptBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Encryption"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/aesImageEncryptBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Encryption"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aesTextEncryptBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
